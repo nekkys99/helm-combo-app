@@ -1,0 +1,11 @@
+replicaCount: 2
+
+image:
+  repository: dockerproxy.com/prom/pushgateway
+  tag: latest
+
+ingress:
+  domain: app.k8s-lab.local
+
+auth:
+  password: MySuperPuperSecretPassword
